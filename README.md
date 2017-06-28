@@ -40,13 +40,6 @@ When you're ready to test your bot, go to your Facebook homepage and find the pa
 
 ## Starting the server
 
-If you are connecting to a channel, you need to add `USE_<channel_name>` in the .env file.
- eg: If you would like to use Slack and Facebook Messenger, you must add the following lines in your .env file:
-```
-USE_SLACK=any_value
-USE_FACEBOOK=any_value
-```
-The value of these variables doesn't matter, as long as they're present. The middleware knows it needs to connect to these channels.
 
 Once you have added your credentials in the `.env` file, start the example express app by running this command:
 ```
